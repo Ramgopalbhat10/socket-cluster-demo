@@ -1,0 +1,23 @@
+{
+  "name": "redis-socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "node client.js",
+    "start:emitter": "node emitter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.6.0",
+    "express": "^4.17.2",
+    "ioredis": "^4.9.3",
+    "request-promise": "^4.2.6",
+    "socket.io": "^2.0.4",
+    "socket.io-emitter": "^3.2.0",
+    "socket.io-redis": "^5.4.0"
+  }
+}
